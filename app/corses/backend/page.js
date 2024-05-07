@@ -19,7 +19,7 @@ export default function Home() {
       <GetFromUs></GetFromUs>
       <Subject/>
       <QurtionAns></QurtionAns>
-      <CorseEnrolRabon data={{title:'ব্যাক-এন্ড ওয়েব ডেভেলপমেন্ট কোর্স', endtime:'এনরোলমেন্ট শেষ তারিখ ০১/০৬/২০২৪',price:"৪,০০০"}}></CorseEnrolRabon>
+      <CorseEnrolRabon data={{title:'ব্যাক-এন্ড ওয়েব ডেভেলপমেন্ট কোর্স', endtime:'এনরোলমেন্ট শেষ তারিখ ১০/০৬/২০২৪',price:"৪,০০০"}}></CorseEnrolRabon>
     </main>
   );
 }
