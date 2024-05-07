@@ -1,3 +1,4 @@
+import BackendServices from "@/components/BackendServices";
 import BackendBanner from "@/components/BackensBanner";
 import CorseEnrolRabon from "@/components/CorseEnrolRabon";
 import GetFromUs from "@/components/GetFromUs";
@@ -14,7 +15,7 @@ export default function Home() {
     <main className="text-gray-300 container w-[90%]  mx-auto">
       <BackendBanner/>
       <WhatLernBackend></WhatLernBackend>
-      <Services></Services>
+      <BackendServices></BackendServices>
       <GetFromUs></GetFromUs>
       <Subject/>
       <QurtionAns></QurtionAns>

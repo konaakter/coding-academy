@@ -7,13 +7,14 @@ import WhoChorseFor from "@/components/WhoChorseFor";
 import Subject from "@/components/Subject";
 import CorseEnrolRabon from "@/components/CorseEnrolRabon";
 import FullStackBanner from "@/components/FullStackBanner";
+import Fuulstackservices from "@/components/Fuulstackservices";
 
 export default function Home() {
   return (
     <main className="text-gray-300 container w-[90%]  mx-auto">
       <FullStackBanner/>
       <WhatLearn></WhatLearn>
-      <Services></Services>
+      <Fuulstackservices></Fuulstackservices>
       <GetFromUs></GetFromUs>
       <Subject></Subject>
       <WhoChorseFor></WhoChorseFor>

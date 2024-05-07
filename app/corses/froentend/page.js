@@ -6,13 +6,14 @@ import WhoChorseFor from "@/components/WhoChorseFor";
 import Subject from "@/components/Subject";
 import CorseEnrolRabon from "@/components/CorseEnrolRabon";
 import FontendBanner from "@/components/FontendBanner";
+import Forendservices from "@/components/Forendservices";
 
 export default function Home() {
   return (
     <main className="text-gray-300 container w-[90%]  mx-auto">
       <FontendBanner/>
       <WhatLernFontend></WhatLernFontend>
-      <Services></Services>
+     <Forendservices></Forendservices>
       <GetFromUs></GetFromUs>
       <Subject></Subject>
       <WhoChorseFor></WhoChorseFor>
